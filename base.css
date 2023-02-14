@@ -1,0 +1,327 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #66D5C4;
+    text-shadow: 1px 2px #000000;
+    background-color: #9B3D12;
+    background-image: linear-gradient(to right, rgb(241,188,16),rgb(232,84,47));
+
+    
+}
+
+.pricepic{
+    display: block;
+    object-fit: fill;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#mission {
+    grid-column: 1 / span 2;
+}
+
+#thankyou {
+    grid-column: 1 / span 2;
+}
+
+
+#cta {
+    grid-column: 1 / span 2;
+}
+
+.pagetitle{
+    text-align: center;
+    background-color: rgb(59, 59, 225);
+    height: 2em;
+}
+
+
+.wireframe{
+    background-color: white;
+}
+
+.wire-image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+    
+}
+
+.wire-image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+}
+
+.wire-image1 {
+    margin-bottom: 50px;
+
+}
+
+nav {
+    background-color: darkgray;
+    background-image: linear-gradient(to right, rgb(152, 154, 179), darkgray,  rgb(152, 154, 179));
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    text-shadow: none;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+
+}
+
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: steelblue;
+}
+
+
+footer {
+    background-color: rgb(60, 52, 52);
+    padding-top: 1em;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    color: lightgray;
+    text-shadow: none;
+}
+
+.button {
+    background-color: rgb(59, 59, 225);
+    border: none;
+    border-radius: 10px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    margin: 4px 2px;
+    margin-left: 37%;
+    cursor: pointer;
+    transition-duration: 1.4s;
+  }
+
+  .button:hover {
+    background-color: #9B3D12;
+    background-image: linear-gradient(to right, rgb(241,188,16),rgb(232,84,47));
+  }
+
+.card {
+    
+    box-shadow: 5px 5px 10px #001d2c;
+    border-radius: 10px;
+    margin: 1rem;
+    min-width: 400px;
+    background-color: darkgray;
+    background-image: linear-gradient(to right, rgb(152, 154, 179), darkgray,  rgb(152, 154, 179));
+    text-decoration: none;
+    
+}
+
+h2 {
+    background-color: rgb(59, 59, 225);
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+}
+
+.card p{
+    color: rgb(59, 59, 225);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: none;
+}
+
+.card ul{
+    text-decoration: none;
+    color: rgb(59, 59, 225);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: none;
+   
+}
+
+#weather-icon{
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+}
+
+#headspot{
+    grid-column: 1 / span 3;
+    height: 2em;
+
+}
+
+#spotlight {
+    display: grid;
+    grid: 150px / auto auto auto;  
+    
+    
+        
+}
+
+.sponsor1{
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 2em;
+    margin-left: 5em;
+   
+
+}
+
+.sponsor2{
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 2em;
+    margin-left: .5em;
+}
+
+.sponsor3{
+    grid-column: 3;
+    grid-row: 2;
+    margin-bottom: 2em;
+    margin-left: .5em;
+}
+
+#info{
+    text-decoration: none;
+}
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+
+
+aside {
+    grid-row: 1;
+    grid-column: 1/2;
+
+}
+
+#local {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1000px;
+        margin: auto;
+           
+}
+
+#attractionmap {
+    padding-bottom: .5em;
+}
+
+.infop{
+    font-weight: bold;
+    font-size: large;
+    color: #000000;
+}
+
+#attraction:hover{
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+#joinform {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+.appinfo {
+    text-align: left !important;
+    justify-content: left;
+    align-content: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#req {
+    font-size: 10px;
+    color: #000000;
+    font-style: italic;
+}
+
+.membership {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+#textarea {
+    margin-left: 13%;
+    width: 100%;
+    padding-top: 20em
+    
+}
+
+#business {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.subbutton {
+    background-color: rgb(59, 59, 225);
+    border: none;
+    border-radius: 10px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    margin-left: 39%;
+    cursor: pointer;
+    transition-duration: 1.4s;
+  }
+
+  .subbutton:hover {
+    background-color: #9B3D12;
+    background-image: linear-gradient(to right, rgb(241,188,16),rgb(232,84,47));
+  }
+
+  #visitors {
+    color: #000000;
+    font-weight: bold;
+
+  }
+
+.visits{
+    color: red;
+    font-style: italic
+}
